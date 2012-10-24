@@ -16,7 +16,7 @@ Run:
 
 Add the following to your model:
 
-    validates :rut_attribure, rut: true
+    validates :rut_attribute, rut: true
 
 
 ## Contributing
