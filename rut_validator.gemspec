@@ -1,11 +1,10 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rut_validator/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "rut_validator"
-  gem.version       = RutValidator::VERSION
+  gem.version       = "0.0.1"
   gem.authors       = ["Ignacio Ortega"]
   gem.email         = ["ignacio.ortega@gmail.com"]
   gem.description   = %q{Chilean RUT validator for rails 3. See homepage for details http://github.com/iortega/rut_validator}

@@ -1,0 +1,11 @@
+en:
+  activemodel:
+    errors:
+      models:
+        test_user:
+          attributes:
+            rut:
+              rut_invalid: invalid
+  errors:
+    messages:
+      rut_invalid: invalid
