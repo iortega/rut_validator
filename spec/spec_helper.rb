@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'bundler/setup'
+require 'simplecov'
 require 'active_model'
 require 'rut_validator'
 
