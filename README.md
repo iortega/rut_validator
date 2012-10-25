@@ -2,6 +2,9 @@
 
 Chilean RUT validator for ActiveRecord on rails 3.
 
+[![Build Status](https://secure.travis-ci.org/iortega/rut_validator.png)](http://travis-ci.org/iortega/rut_validator)
+[![Dependency Status](https://gemnasium.com/iortega/rut_validator.png)](https://gemnasium.com/iortega/rut_validator)
+
 ## Installation
 
 Add this line to your application's Gemfile:
