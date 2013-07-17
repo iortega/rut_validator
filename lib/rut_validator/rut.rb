@@ -2,7 +2,7 @@ class Rut
   attr_reader :code
 
   def initialize(rut)
-    @rut = rut.to_s.strip
+    @rut = rut.to_s.strip.upcase
     @number = @rut.gsub(/[^0-9K]/i,'')[0...-1]
     @code = @rut[-1]
   end
@@ -27,7 +27,7 @@ class Rut
       digit, factor = *a
       r += digit.to_i * factor
     end
-    all_codes[11 - partial_sum%11].to_s
+    all_codes[(11 - partial_sum) % 11].to_s
   end
 
   def number_with_delimiter(delimiter='.')
