@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "rut_validator"
-  gem.version       = "0.0.1"
+  gem.version       = "0.0.2"
   gem.authors       = ["Ignacio Ortega"]
   gem.email         = ["ignacio.ortega@gmail.com"]
   gem.description   = %q{Chilean RUT validator for rails 3. See homepage for details http://github.com/iortega/rut_validator}
